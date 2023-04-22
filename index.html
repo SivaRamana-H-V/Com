@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Siva-Ramana-HV</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatib1e" content="IE=edge">
+<meta name="viewport" content="width=device-width,
+initial-scale=l.e">
+<link rel="stylesheet" href="style.css">
+<link href= 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">Siva.</a>
+    
+    <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="home">
+    <div class="home-content">
+        <h1>Hi,👋 I'm Siva Ramana HV</h1>
+        <h3>Multimedia Designer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum debitis dolores sequi eveniet nemo a nobis eligendi harum explicabo suscipit animi voluptatibus voluptatum, vitae ad eum doloribus! Vel, molestiae pariatur?</p>
+        <div class="btn-box">
+            <a href="#">Hire Me</a>
+            <a href="#">Let's Talk</a>
+        </div>
+    </div>
+
+
+    <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+    <span class="home-imgHover"></span>
+</section>
+<script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 2) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+    }
+    </script>
+</body>
+</html>
