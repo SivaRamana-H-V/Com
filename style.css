@@ -9,7 +9,8 @@
 
 body {
     background: rgb(74,234,132);
-    background: linear-gradient(90deg, #43ea81 10%, #39f9d4 90%);
+    background: linear-gradient(90deg, #43ea81 10%, #39f9d4 9
+    0%);
     }
 .header {
     position: fixed;
