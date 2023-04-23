@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&text=Hello');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 
 body {
     background: rgb(74,234,132);
-    background: linear-gradient(90deg, rgba(74,234,132,1) 0%, rgba(57,249,212,1) 100%);
+    background: linear-gradient(90deg, #43ea81 10%, #39f9d4 90%);
     }
 .header {
     position: fixed;
@@ -63,9 +64,9 @@ body {
 .home{
 height: 100vh;
 background:url("Web\ imge.jpg") no-repeat;
-background-size: cover;
+background-size: contain;
 background-position: center;
-margin-top: 5%;
+margin: top 0;
 display: flex;
 align-items: center;
 padding: 0 10%;
